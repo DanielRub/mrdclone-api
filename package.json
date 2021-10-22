@@ -14,7 +14,7 @@
     "nodemon": "^2.0.13"
   },
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node -e js"
+    "start": "npm install && node ./index.js --exec babel-node -e js"
   },
   "author": "",
   "license": "ISC"
