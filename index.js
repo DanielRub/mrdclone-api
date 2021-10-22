@@ -8,7 +8,7 @@ const data = require("./data.json");
 var app = express();
 app.use(cors());
 app.options("*", cors());
-const PORT = 3001;
+const PORT = 80;
 const RADIUS = 8; // search in 8km radius
 app.listen(PORT, () => {
   console.log("server running on port " + PORT);
