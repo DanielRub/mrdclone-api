@@ -1,8 +1,11 @@
-import express from "express";
-import data from "./data.json";
-import cors from "cors";
 
-const app = express();
+const express = require("express")
+
+const cors= require('cors');
+
+const data = require("./data.json");
+
+var app = express();
 app.use(cors());
 app.options("*", cors());
 const PORT = 3001;
